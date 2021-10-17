@@ -1,0 +1,10 @@
+.location-input {
+    background-color: transparent;
+    font: 500 20px/32px Roboto, "Helvetica Neue", sans-serif;
+    border: none;
+    color: white;
+}
+
+::placeholder {
+  color: white;
+}

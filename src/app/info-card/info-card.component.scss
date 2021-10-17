@@ -1,0 +1,28 @@
+.center-x-y {
+    display: flex;
+      align-items: center;
+      justify-content: center;
+      height: 100%;
+}
+
+.center-x {
+    text-align: center;
+}
+
+
+.info-card {
+    height: 300px;
+    width: 300px;
+    margin: 10px;
+
+    mat-card-title {
+        font-size: 50px;
+        padding-bottom: 20px;
+        padding-top: 10px;
+    }
+
+    mat-card-content {
+        font-size: xx-large; 
+        font-weight: bolder;
+    }
+}

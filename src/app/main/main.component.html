@@ -1,0 +1,5 @@
+<div class="info-grid">
+    <div *ngFor="let item of items">
+        <app-info-card *ngIf="item.title && item.info" [title]="item.title" [info]="item.info"></app-info-card>
+    </div>
+</div>
